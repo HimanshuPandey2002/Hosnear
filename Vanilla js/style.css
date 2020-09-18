@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(240deg,#27E0A9, #40C7F2);
+  background-size: contain;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.head{
+  color: white;
+  text-align: center;
+  font-size: 10vmin;
+  font-weight: lighter;
+  margin-top: 12%;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  border: white 2px solid;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 24%;
+  z-index: 4;
+}
+
+.box{
+  width: 95%;
+  height: 70vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 00;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5%;
+  padding-top: 15%;
+}
+
+.signup{
+  font-size: 7vmin;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7% 0;
+}
+
+input{
+  padding: 3%;
+  font-size: 16px;
+  margin-bottom: 5%;
+  border: none;
+  border-bottom: #27E0A9 solid 2px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+input:focus{
+  border-bottom: none;
+  transform: scale(1.1);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.Btn{
+  border-radius: 50px;
+  width: 60%;
+  border: none;
+  outline: none;
+  background: linear-gradient(120deg,#27E0A9, #40C7F2);
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 2%;
+}
+
+.sub-line{
+  text-align: center;
+  font-size: 15px;
+}

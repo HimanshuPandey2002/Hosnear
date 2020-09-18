@@ -1,0 +1,20 @@
+.box{
+  height: 80vh;
+}
+
+form{
+  justify-content: space-between;
+}
+
+input{
+  margin: 5% 0;
+}
+
+.logo{
+  top: 14%;
+}
+
+.signup{
+  font-size: 5vmin;
+  text-align: center;
+}
